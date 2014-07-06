@@ -5,7 +5,8 @@ end
 
 # keep only the elements that start with a vowel
 def select_elements_starting_with_vowel(array)
-	array.select {|e| ["a","e","i","o","u"].include?(e.chars.first)}
+	# array.select {|e| ["a","e","i","o","u"].include?(e.chars.first)}
+	array.select {|e| (%w[a e i o u] & [e.chars.first]).any?}
 end
 
 # remove instances of nil (but NOT false) from an array
@@ -209,7 +210,8 @@ end
 # should return true for a 3 dot range like 1...20, false for a 
 # normal 2 dot range
 def is_a_3_dot_range?(range)
-	range.to_s.include?("...")
+	# range.to_s.include?("...")
+	range.max != range.last
 end
 
 # get the square root of a number
