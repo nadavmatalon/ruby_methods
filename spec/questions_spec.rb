@@ -1,10 +1,5 @@
-require 'rspec'
-require_relative './questions'
+require './lib/questions.rb'
 
-RSpec.configure do |config|
-  config.color = true
-  config.formatter = :documentation
-end
 
 describe 'the Friday test :)' do
   
