@@ -334,5 +334,3 @@ def ninety_nine_bottles_of_beer
 	puts "No more bottles of beer on the wall, no more bottles of beer."
 	puts "Go to the store and buy some more, 99 bottles of beer on the wall."	
 end
-
-
