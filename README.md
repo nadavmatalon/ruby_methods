@@ -13,7 +13,7 @@
 
 ##General Description
 
-This repo contians the answer for __Week 9 Friday Challange__ of the course 
+This repo contians my answer for __Week 9 Friday Challange__ of the course 
 at [Makers Academy](http://www.makersacademy.com/).
 
 This particular challange was about writing effective [Ruby](https://www.ruby-lang.org/en/) 
