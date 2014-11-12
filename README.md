@@ -42,7 +42,7 @@ so that the pre-defined tests will pass.
 
 Tests were written with [Rspec](http://rspec.info/) (3.0.2).
 
-To run the testing suite in terminal: 
+To run the testing suite in terminal, clone the repo and run: 
 
 ```bash
 $> cd ruby_methods
@@ -54,8 +54,8 @@ To see the last two methods in action run the following commands in terminal:
 ```bash
 $> irb
 >> require './lib/questions.rb'
->> fizzbuzz_without_modulo
->> ninety_nine_bottles_of_beer
+>> Friday_Test.new.fizzbuzz_without_modulo
+>> Friday_Test.new.ninety_nine_bottles_of_beer
 ```
 
 
