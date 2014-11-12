@@ -53,11 +53,7 @@ To see the last two methods in action run the following commands in terminal:
 
 ```bash
 $> irb
->> require './lib/questions.rb'
+>> require './lib/friday_test.rb'
 >> Friday_Test.new.fizzbuzz_without_modulo
 >> Friday_Test.new.ninety_nine_bottles_of_beer
 ```
-
-
-
-
